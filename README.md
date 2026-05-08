@@ -20,4 +20,15 @@ ich soll jetzt was verändern
 abc abc
 change from visual studio code
 
+ 2.-session
 ich habe jetzt ein branch added
+
+Veränderung von Dennis
+konflikt bauen, gibt es noch einen konflikt?
+# After a conflicting pull
+git status                # shows conflicted files
+# ... edit the file to resolve ...
+git add README.md
+git commit -m "Resolve merge conflict in README"
+git push
+main
